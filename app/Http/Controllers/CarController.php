@@ -131,7 +131,7 @@ class CarController extends Controller
             'status' => 'success',
             'message' => 'Car created successfully',
             'car' => $car,
-        ]);
+        ], 201);
     }
 
     /**
